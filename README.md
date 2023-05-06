@@ -1,2 +1,4 @@
 # mcswfd.github.io
 the home of work
+# Licence
+https://mcswfd.github.io © 2023 by Emran Sediq Sultani is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
