@@ -50,4 +50,83 @@
       <li><strong>Mandate:</strong> Official authorization or directive.</li>
       <li><strong>Ambitious:</strong> Having high aspirations or goals.</li>
     </ul>
-    <button onclick="engine.hide('anz1'); engine.show(
+    <button onclick="engine.hide('anz1'); engine.show('frage', anz.nobr);">Back</button>
+  </div>
+
+  <div id="anz2" style="display: none;">
+    <h2>2. Plastic-Related Problems</h2>
+    <ul>
+
+      <li>Plastic pollution in oceans and the environment.</li>
+      <li>Harmful effects of plastic on air quality, flooding, and wildlife.</li>
+      <li>Microplastic pollution.</li>
+      <li>Use of hazardous chemicals in plastics.</li>
+      <li>Disproportionate exposure to plastic chemicals and waste in certain communities.</li>
+      <li>Challenges faced by small nations in managing plastic waste.</li>
+      <li>Lobbying and influence of plastic-producing industries.</li>
+      <li>Concerns about chemical recycling and carbon emissions.</li>
+
+    </ul>
+    <button onclick="engine.hide('anz2'); engine.show('frage', anz.nobr);">Back</button>
+  </div>
+
+  <div id="anz3" style="display: none;">
+    <h2>3. Aims of the Treaty and Involved Parties</h2>
+
+    <p>The aims of the treaty include:</p>
+    <ul>
+      <li>Regulation of plastic production and use.</li>
+      <li>Management of microplastic pollution.</li>
+      <li>Regulation of hazardous chemicals in plastics.</li>
+      <li>Support for transitioning away from plastic.</li>
+      <li>Protection of rights for communities disproportionately affected by plastic pollution.</li>
+
+    </ul>
+    <p>The treaty is being drafted by delegates from 180 nations, along with input from stakeholders such as civil society groups, waste pickers, and scientists.</p>
+    <button onclick="engine.hide('anz3'); engine.show('frage', anz.nobr);">Back</button>
+  </div>
+
+  <div id="anz4" style="display: none;">
+    <h2>4. Summarized Parts of the Article</h2>
+    <ol>
+
+      <li>Delegates from 180 nations have taken a significant step towards a binding global agreement to tackle plastic pollution.</li>
+      <li>Plastic pollution is a major global issue, with millions of tons ending up in the oceans annually.</li>
+      <li>Stakeholders at the talks call for measures to manage microplastic pollution, regulate hazardous chemicals in plastics, and protect communities disproportionately affected by plastic waste.</li>
+      <li>Initial disagreements among delegates were overcome, and the talks led to widespread agreement on the potential core features of a future treaty, aiming for global and legally binding regulations on plastics.</li>
+
+    </ol>
+    <button onclick="engine.hide('anz4'); engine.show('frage', anz.nobr);">Back</button>
+  </div>
+
+  <div id="anz5" style="display: none;">
+    <h2>5. Discussion about the Differences the Treaty Will Make</h2>
+
+    <p>The treaty presents a significant opportunity to create an environmental agreement that can bring about positive changes in people's lives.</p>
+    <p>If successfully implemented, the treaty could lead to a reduction in plastic pollution, better management of plastic waste, regulations on hazardous chemicals, and protection for communities at risk.</p>
+    <p>The treaty's ambitious goals, global scope, and legally binding nature could pave the way for meaningful change in how plastic is produced, used, and disposed of, ultimately benefiting the environment, wildlife, and human health.</p>
+
+    <button onclick="engine.hide('anz5'); engine.show('frage', anz.nobr);">Back</button>
+  </div>
+
+  <script>
+    var anz = {
+      br: "block",
+      nobr: "inline-block"
+    };
+    var engine = {
+      show: function(t, n) {
+        document.getElementById(t).style.display = n;
+      },
+      hide: function(t) {
+        document.getElementById(t).style.display = "none";
+      }
+    };
+
+    function no() {
+      window.location.href = "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijsMawnPeAAxUVQfEDHf-PBqgQwqsBegQIERAF&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxvFZjo5PgG0&usg=AOvVaw1bR_FN-SnfIGtKD3fjAA5P&opi=89978449";
+    }
+  </script>
+
+</body>
+</html>
