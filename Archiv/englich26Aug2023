@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Article Summary</title>
+</head>
+<body>
+  <h1>Article Summary</h1>
+
+  <div id="frage">
+    <h2>Questions</h2>
+    <ol>
+      <li onclick="engine.hide('frage'); engine.show('anz1', anz.br);">
+        Look up the terms that are underlined. Explain them in English!
+      </li>
+      <li onclick="engine.hide('frage'); engine.show('anz2', anz.br);">
+        List all the plastic-related problems mentioned in the article.
+      </li>
+      <li onclick="engine.hide('frage'); engine.show('anz3', anz.br);">
+        What are the aims of the treaty? Who is involved in drafting this treaty?
+      </li>
+      <li onclick="engine.hide('frage'); engine.show('anz4', anz.br);">
+        The article is divided into 4 main parts. Summarise each part in a few sentences.
+      </li>
+      <li onclick="engine.hide('frage'); engine.show('anz5', anz.br);">
+        "It's a massive opportunity to create an environmental agreement that will really make a positive difference to people's lives." Discuss the differences that will be made.
+      </li>
+    </ol>
+  </div>
+
+  <div id="anz1" style="display: none;">
+    <h2>1. Definitions</h2>
+    <ul>
+
+      <li><strong>Delegates:</strong> Representatives or officials from different nations.</li>
+      <li><strong>Binding:</strong> Enforceable by law; in this context, it refers to an agreement that must be followed.</li>
+      <li><strong>Banging:</strong> Hitting something with force, in this context, referring to the sound made by hitting a recycled-plastic gavel.</li>
+      <li><strong>Stakeholders:</strong> Individuals or groups with a vested interest in an issue or situation.</li>
+      <li><strong>Thrash out:</strong> To discuss and negotiate to reach an agreement.</li>
+      <li><strong>Hazardous:</strong> Dangerous or risky.</li>
+      <li><strong>Petrochemical plants:</strong> Facilities that produce chemicals and products derived from petroleum or natural gas.</li>
+      <li><strong>Campaigns:</strong> Organized efforts to bring about change or raise awareness about a particular issue.</li>
+      <li><strong>Curb:</strong> Control or limit.</li>
+      <li><strong>Burden:</strong> A heavy responsibility or load.</li>
+      <li><strong>Upstream:</strong> Refers to the earlier stages of production and supply chain.</li>
+      <li><strong>Fierce:</strong> Intense or strong.</li>
+      <li><strong>Stalling:</strong> Delaying or obstructing progress.</li>
+      <li><strong>Lobbyists:</strong> Individuals or groups that try to influence decisions made by governments or organizations.</li>
+      <li><strong>Procedural:</strong> Related to procedures or processes.</li>
+      <li><strong>Potential core features:</strong> Fundamental aspects that might be included in the treaty.</li>
+      <li><strong>Mandate:</strong> Official authorization or directive.</li>
+      <li><strong>Ambitious:</strong> Having high aspirations or goals.</li>
+    </ul>
+    <button onclick="engine.hide('anz1'); engine.show(
